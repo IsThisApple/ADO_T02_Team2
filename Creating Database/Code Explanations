@@ -1,4 +1,15 @@
 Driver Table:
+1. Create and Populate TEAM_STATS Table
+  - Created the TEAM_STATS table using joins between two tables
+  - Using left join, I joined the CONSTRUCTOR_STANDINGS to the TEAM_DETAILS table to populate the dataset while creating the new TEAM_STATS table
+2. Cleaned Data
+  - Used UPPER() on TEAM column when joining the tables to ensure more consistency in properly mapping the respective values.
+  - Check for nulls in the tables by selecting nulls in the database for each column.
+  - Updated the null values in the TEAM_OVERALL_POS and TOTAL_PTS with their respective values from the original dataset as there were only 12 nulls and all of them belonged to the same year and team
+3. Validated Data
+  - Check for nulls again by printing rows with nulls to ensure that the table does not contain any more null values
+  - Showed the entire table using the 'SELECT' query to ensure all the  columns are in the dataset
+
 
 Grid Table:
 1. Key Definition
