@@ -1,3 +1,5 @@
+The following .ipynb files stored here are the 4 new tables created for the new database. This was done to change data processing systems from Online Transactional Processing (OLTP) to Online Analytical Processing (OLAP). We created the tables by joining tables from the original database.
+
 Driver Table:
 1. Create and Populate TEAM_STATS Table
   - Created the TEAM_STATS table using joins between two tables
