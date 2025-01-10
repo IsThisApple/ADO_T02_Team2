@@ -1,4 +1,4 @@
-The following .ipynb files stored here are the 4 new tables created for the new database. Since the database is meant to be built for helping the data analyst in F1, we need to create a new database to change data processing systems from Online Transactional Processing (OLTP) to Online Analytical Processing (OLAP). We created the tables by joining tables from the original database.
+The following .ipynb files stored here are the 4 new tables created for the new database. Since the database is meant to be built for helping the data analysts in F1, we need to create a new database to change data processing systems from Online Transactional Processing (OLTP) to Online Analytical Processing (OLAP). These new tables were created by joining tables from the original database.
 
 Driver Table:
 
