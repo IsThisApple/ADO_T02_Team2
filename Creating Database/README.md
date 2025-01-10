@@ -3,18 +3,18 @@ The following .ipynb files stored here are the 4 new tables created for the new 
 Driver Table:
 
 Grid Table:
-1. Key Definition
+- Key Definition
   - Defined the purpose of symbols used in comments (`/` for joining and `-` for removing nulls).
-2. Created and Populated Table
+- Created and Populated Table
   - Created the `RAW3.F1_3.GRID_STATS` table.  
   - Joined data from `RAW3.F1_3.SPRINT_GRID` and `RAW3.F1_3.STARTING_GRIDS` based on matching `DRIVERCODE`, `YEAR`, and `GRAND_PRIX`.  
   - Selected specific fields from both tables to populate the new table.
-3. Cleaned Data
+- Cleaned Data
   - Deleted rows from `RAW3.F1_3.GRID_STATS` where any key field (e.g., `STARTING_POS`, `NO`, `DRIVER`, etc.) was `NULL`.
   - Updated the `SPRINT_TIME` column to replace `NULL` values with `'N/A'`.
-4. Validated Data
+- Validated Data
   - Verified the contents of `RAW3.F1_3.GRID_STATS` with `SELECT` queries after each step.
-5. Checked for Nulls
+- Checked for Nulls
   - Counted rows with `NULL` values in any key field to ensure data integrity after cleaning.
 
 Race Table:
