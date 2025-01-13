@@ -1,4 +1,20 @@
 Driver Table:
+1. Primary Keys and foreign keys
+- primary key i made the driver year and grand prix as the primary key so that the key is more precise and unique
+- foreign keys is the same because there are the same columns in other tables as well
+2. Creating of the driver table
+- joined the tables on driver, year, grand_prix, car, race position in total
+- This were the columns that were being used to join the tables
+- This allowed the data to have a reasonable number of columns in the dataset with some null values that will be dealt with later on
+- Made sure that the data has reasonable number of rows so that there wont be too many or too little due to insufficient joining of tables
+3. Cleaning of the data
+- For the numerical columns such as time, year etc, I used -999 so that it is an extreme value and can be easily filtered out in the future
+- we did not want to use the median or mean to impute the null values because we did not want to impute the wrong values to show the wrong data
+- For the categorical columns, the null values were imputed with a 'unknown'. Same reason as before, we did not want to show incorrect values.
+4. Null values and checking values
+- Select statement has been put at the bottom of the code so that when it has been ran, the output shows the overall details of the data in the new window popup
+below showing all the unqiue values and seeing if there is any more null values in the dataset. 
+
 
 Grid Table:
 1. Key Definition
