@@ -1,1 +1,1 @@
-These are the SQL codes used to create the dynamic tables to be connected to Power BI.
+These are the SQL codes used to create the dynamic tables to be connected to Power BI. We chose dynamic tables over the star schema as our dataset does not have any IDs we can use to identify each record uniquely. This means that implementing a star schema require us to create IDs for all the drivers and races for each year, of which the timeframe given would not allow us to do so.
