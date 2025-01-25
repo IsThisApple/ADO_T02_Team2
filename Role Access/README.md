@@ -1,4 +1,4 @@
-RABC also known as the Role based control for the dataset.
+RABC also known as the Role based access control for the dataset.
 For the RBAC i would set the roles in this following heirarchy, which is analyst, developer and CI
 analyst would be the lowest role on the RBAC only being allowed to access the dynamic tables created in sprint 5 
 originally, the analyst role was able to view all the tables and not able to insert, update or delete any infomation on the table.

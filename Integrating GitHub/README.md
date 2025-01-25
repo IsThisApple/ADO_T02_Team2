@@ -1,1 +1,3 @@
 The file in this folder is all the SQL code related to integrating GitHub into Snowflake. This was done to create the CI/CD process to allow us to automate database schema updates and code deployment. This is done by synchronizing this repository to the remote git repository on Snowflake, which lets us pull and push code from this repositroy straight into Snowflake using Snowflake Snowsight.
+
+Additionally, using Snowsight, I granted access to the CI, Developer and Analyst role to be able to read and write to this GitHub repository. This only lets these roles be able to access the GitHub repository and ensures that only the users with at least one of these roles are able to use the repository. 
