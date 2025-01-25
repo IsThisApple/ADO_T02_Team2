@@ -1,6 +1,17 @@
 The following .ipynb files stored here are the 4 new tables created for the new database. Since the database is meant to be built for helping the data analysts in F1, we need to create a new database to change data processing systems from Online Transactional Processing (OLTP) to Online Analytical Processing (OLAP). These new tables were created by joining tables from the original database.
 
 Driver Table:
+- Key Definition
+  - For the key definition, I have created the foreign and primnary keys using the Driver, Year and Grand Prix columns
+  - These are the columns that has been combiined to make the keys unique and identify each of the rows
+ - Joining of the data
+  - The tables has been joined so that the data makes sense without having too many or too little rows.
+- Cleaning of the data
+  - The nulls for the categorical columns has been changed into the variable 'unknown' where as the numerical data has been changed into -999
+  - The reason for this is simply because we do not have the correct data and since we do not have the right data and the data is very inconsistent, imputing missing data with things like mean and median would not make sense and may cause some confusion in the data
+- Verifying the data
+  - Select * query at the end to check for the null values and the unique values
+  - This code can also check for the null counts in the database
 
 Grid Table:
 - Key Definition
