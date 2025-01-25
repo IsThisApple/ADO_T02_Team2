@@ -2,7 +2,7 @@ Simulating F1's physical database via multiple Excel files, this project aims to
 
 This repository contains all the SQL codes our team has used for the migration of F1's data into Snowflake, the transformation process (ELT), the Continuous Integration and Continuous Deployment pipeline (CI/CD), Role Based Access Control and Dynamic Tables for Power BI. It also contains the Excel files used to mimic the F1 database.
 
-To navigate this repository easily, below are what each folder contains:
+**To navigate this repository easily, below are what each folder contains:**
 
 The Creating Database folder contains the SQL code used to create the 4 tables we came up with when changing the database from an Online Transactional Processing database system to a Online Analytical Processing database system.
 
