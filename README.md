@@ -5,10 +5,15 @@ This repository contains all the SQL codes our team has used for the migration o
 To navigate this repository easily, below are what each folder contains:
 
 The Creating Database folder contains the SQL code used to create the 4 tables we came up with when changing the database from an Online Transactional Processing database system to a Online Analytical Processing database system.
+
 The Dynamic Tables folder contains the SQL code used to create the 4 dynamic tables to be used in Power BI.
+
 The Integrating GitHub folder contains the SQL code used to establish the CI/CD pipeline to integrate GitHub into Snowflake, allowing us to easily pull and push code into the repository through Snowflake itself.
+
 The Original Database folder contains all the SQL code regarding the creation of the database to store the initial data to do transformation in Snowflake itself. This allows us to use the ELT pipeline efficiently.
+
 The Role Access folder contains all the SQL code regarding the creation of roles in Snowflake and granting them permissions to certain tables in Snowflake, allowing us to restrict access to our database. 
+
 The repo folder is purely used to test if the Snowflake and GitHub integration works and it is not related to any SQL database code at all.
 
 Additioanlly, each of these folders have their own README.md files for further in depth explanation of files in the folder, feel free to read them if there is any confusion.
