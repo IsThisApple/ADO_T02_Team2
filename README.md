@@ -12,7 +12,9 @@ The Integrating GitHub folder contains the SQL code used to establish the CI/CD 
 
 The Original Database folder contains all the SQL code regarding the creation of the database to store the initial data to do transformation in Snowflake itself. This allows us to use the ELT pipeline efficiently.
 
-The PowerBI Dashboards folder contains all the PowerBI dashboards we made using the newly created database. We did this by establishing a connnection to PowerBI and Snowflake via dynamic tables, allowing us to build visualisations using the data.
+The Power BI Dashboards folder contains all the PowerBI dashboards we made using the newly created database. We did this by establishing a connnection to PowerBI and Snowflake via dynamic tables, allowing us to build visualisations using the data.
+
+The Report and Slides folder contains the report and slides we have done for this project, outlining what we have done throughout the timeline of the project.
 
 The Role Access folder contains all the SQL code regarding the creation of roles in Snowflake and granting them permissions to certain tables in Snowflake, allowing us to restrict access to our database. 
 
